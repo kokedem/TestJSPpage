@@ -3,5 +3,5 @@
 
 FROM java:8
 EXPOSE 8080
-ADD target/hellooworld.war hello.war
+COPY target/helloworld.war hello.war
 ENTRYPOINT ["java","-jar","hello.war"]
