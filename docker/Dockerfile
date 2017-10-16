@@ -6,6 +6,8 @@
 #ADD target/helloworld.war hello.war
 #ENTRYPOINT ["java","-jar","hello.war"]
 
+
+
 FROM openjdk:8-jre-alpine
 
 ENV CATALINA_HOME /usr/local/tomcat
